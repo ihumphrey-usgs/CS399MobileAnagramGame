@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Main Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainMenu" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrabbledWord"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:text="Wrod"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Enter Answer"
+        android:ems="10"
+        android:id="@+id/answerField"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="Enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterButton" />
+
+    <Button
+        android:text="End Challenge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/endChallengeButton" />
+</LinearLayout>
