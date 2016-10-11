@@ -15,6 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".About" />
+        <activity android:name=".CorrectAnswer" />
+        <activity android:name=".IncorrectAnswer" />
+        <activity android:name=".Play" />
+        <activity android:name=".Results" />
+        <activity android:name=".ChallengeSelect"></activity>
     </application>
 
 </manifest>
